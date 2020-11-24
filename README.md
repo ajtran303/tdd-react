@@ -27,9 +27,9 @@ Test that component "toggles" when clicked.
 
 All of these packages are included and pre-configured with `create-react-app`. Nice!
 
-- `jest` -
+- `jest` - it's what's used to test react
 - `testing-library/react` - provides API for interacting with components
-- `testing-library/jest-dom` - provides matchers for assertions
+- `testing-library/jest-dom` - provides extra matchers for assertions
 
 ## Resources
 
@@ -43,4 +43,4 @@ All of these packages are included and pre-configured with `create-react-app`. N
 
 ## Next steps
 
-TODO: The [Jest tutorial](https://jestjs.io/docs/en/tutorial-react)
+TODO: The [Jest tutorial](https://jestjs.io/docs/en/tutorial-react), specifically snapshot testing
