@@ -2,6 +2,10 @@
 
 Exploring Test Driven Development with React.
 
+## Installation and Context
+
+Clone the repo. Use `npm test` to run Jest, which handles pretty much all of the test automation. I recommend just keeping that console window open on its own. It runs in `watch` mode, and will auto-refresh on file saves.
+
 ## Current tests
 
 ### App
@@ -23,9 +27,9 @@ Test that component "toggles" when clicked.
 
 All of these packages are included and pre-configured with `create-react-app`. Nice!
 
-- `jest`
-- `testing-library/react`
-- `testing-library/jest-dom`
+- `jest` -
+- `testing-library/react` - provides API for interacting with components
+- `testing-library/jest-dom` - provides matchers for assertions
 
 ## Resources
 
@@ -36,3 +40,7 @@ All of these packages are included and pre-configured with `create-react-app`. N
 - _Jest DOM Matchers_ - [testing-library/jest-dom](https://github.com/testing-library/jest-dom)
 
 - _React Testing Library_ - [testing-library/react](https://github.com/testing-library/react-testing-library)
+
+## Next steps
+
+TODO: The [Jest tutorial](https://jestjs.io/docs/en/tutorial-react)
